@@ -20,7 +20,7 @@ ol{
 article{
 
   background-color:rgba(255, 255, 255, 0.72);
-  width: fit-content;
+  width: 1885px;
   float: left;
   margin-top: 50px;
   margin: 10px;
@@ -54,6 +54,7 @@ nav{
 
 .nav-2 nav{
   background:#000000;
+
 }
 
 .nav-2 .linktext{
@@ -148,7 +149,7 @@ nav{
 
 @keyframes slide-in-left {
     0% {
-        transform: translateX(-200%);
+        transform: translateY(-200%);
     }
     100% {
         transform: translateX(0);
@@ -157,7 +158,7 @@ nav{
 
 @keyframes slide-in-right {
     0% {
-        transform: translateX(200%);
+        transform: translateY(200%);
     }
     100% {
         transform: translateX(0);
@@ -170,7 +171,7 @@ nav{
 
 .bg {
   animation:slide 3s ease-in-out forwards;
-  background-image: linear-gradient(-60deg, #01a7c2 50%, #007090 50%);
+  background-image: linear-gradient(-60deg, #db5ec0 50%, #e70ddc 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
